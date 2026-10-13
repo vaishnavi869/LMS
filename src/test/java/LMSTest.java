@@ -6,7 +6,7 @@ public class LMSTest {
 
     @Test
     void testCourseName() {
-        assertEquals("Java Programming", lms.getCourseName());
+        assertEquals("Wrong Course", lms.getCourseName());
     }
 
     @Test
